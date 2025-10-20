@@ -8,6 +8,25 @@
 *.app
 a.out
 
+# Executables in data structures and algorithm directories
+DataStructures/**/array_operations
+DataStructures/**/singly_linked_list
+DataStructures/**/doubly_linked_list
+DataStructures/**/stack_array
+DataStructures/**/stack_linked_list
+DataStructures/**/queue_*
+Algorithms/**/bubble_sort
+Algorithms/**/merge_sort
+Algorithms/**/quick_sort
+Algorithms/**/insertion_sort
+Algorithms/**/selection_sort
+Algorithms/**/binary_search
+Algorithms/**/linear_search
+Problems/**/*
+!Problems/**/*.c
+!Problems/**/*.h
+!Problems/**/*.md
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
