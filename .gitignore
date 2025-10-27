@@ -1,0 +1,66 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+a.out
+
+# Executables in data structures and algorithm directories
+DataStructures/**/array_operations
+DataStructures/**/singly_linked_list
+DataStructures/**/doubly_linked_list
+DataStructures/**/stack_array
+DataStructures/**/stack_linked_list
+DataStructures/**/queue_*
+Algorithms/**/bubble_sort
+Algorithms/**/merge_sort
+Algorithms/**/quick_sort
+Algorithms/**/insertion_sort
+Algorithms/**/selection_sort
+Algorithms/**/binary_search
+Algorithms/**/linear_search
+Problems/**/*
+!Problems/**/*.c
+!Problems/**/*.h
+!Problems/**/*.md
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.generated
+
+# Test outputs
+test_results/
+*.log
